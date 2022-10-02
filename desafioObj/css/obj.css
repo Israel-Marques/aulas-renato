@@ -20,7 +20,7 @@ background-color:rgb(231, 239, 234);
 width: 300px;
 height:400px;
 padding:20px;
-margin-top: 10px;
+margin-top: 30px;
 }
 input{
     width:230px;
@@ -28,6 +28,7 @@ input{
     margin-bottom: 10px;
     margin-top: 5px;
     padding:6px;
+    
 }
 label{
 font-size: 18px;
@@ -79,4 +80,8 @@ background-color: rgb(139, 140, 142);
 }
 .display{
     display: none;
+}
+footer{margin-top: 80px;
+    background-color: rgb(26, 154, 9);
+    height: 50px;
 }
