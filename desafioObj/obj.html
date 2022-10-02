@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/obj.css">
+    <title>cadastro de produtos</title>
+</head>
+
+<body>
+    <h1>cadastre seu produto</h1>
+    <main>
+        <div class="container-form">
+            <form id="form" action="">
+                <div class="">
+                    <label for="#inputNome">Nome Do produto</label><br>
+                    <input id="inputNome" type="text" name="nome" placeholder="Digite o Nome do Produto" required>
+                </div>
+                <div class="">
+                    <label for="#inputMarca">Marca</label><br>
+                    <input id="inputMarca" type="text" name="marca" placeholder="Digite a Marca do Produto" required>
+                </div>
+                <div class="">
+                    <label for="inputImagem">Imagem</label><br>
+                    <input id="inputImagem" type="text" name="imagem" placeholder="Digite a URL da Imagem do produto" required>
+                </div>
+                <div class="">
+                    <label for="inputPrecoUnitario">Preço Unitário</label><br>
+                    <input id="inputPrecoUnitario" type="text" name="precoUnitario"
+                        placeholder="Digite o Valor Unitário" required>
+                </div>
+                <div class="">
+                    <label for="inputEstoque">Quantidade Em Estoque</label><br>
+                    <input id="inputEstoque" type="text" name="qtdEmEstoque" placeholder="Digite a QTD em Estoque" required>
+                </div>
+                <div class="buttons" >
+                    <div id="cadastrar">Cadastrar <br> Produto</div>
+                    <div id="excluir"> Excluir <br> Produto</div>
+                </div>
+                <div class=" display feedback" id="idFeedback"> 
+a
+                </div>
+        </div>
+
+        </form>
+
+        <div class="conteiner-tab">
+            <table id="table" width="80%" height="60" border="1px"> 
+                <caption> <h2> Produtos cadastrados</h2></caption>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Marca</th>
+                        <th>Imagem</th>
+                        <th>Preço Unitário</th>
+                        <th>Quantidade Em Estoque</th>
+                        <th>Valor Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>teste</td>
+                        <td>teste</td>
+                        <td>teste</td>
+                        <td>teste</td>
+                        <td>teste</td>
+                        <td>teste</td>
+                    </tr>
+                </tbody>  
+            </table>
+           
+        </div>
+    </main>
+    <script src="./obj.js"></script>
+</body>
+
+</html>
